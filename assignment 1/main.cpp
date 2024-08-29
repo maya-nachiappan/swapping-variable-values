@@ -6,9 +6,16 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main()
+{
+    int num1=2;
+    int num2=1;
+    cout << "Hello\n" << "Num 1 is: "<< num1 << " and Num 2 is: " << num2 << endl;
+    int temp; // initializing a temp variable to swap the numbers
+    temp = num1;
+    num1 = num2;
+    num2 = temp ;
+    
 }
