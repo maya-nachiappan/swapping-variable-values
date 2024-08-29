@@ -17,6 +17,6 @@ int main()
     temp = num1;
     num1 = num2;
     num2 = temp ;
-    cout <<" The new values are now Num 1: " << num1<< " and Num 2: " <<num2 << endl;
-    
+    cout <<"The new values are now Num 1: " << num1<< " and Num 2: " <<num2 << endl;
+    return 0;
 }
